@@ -1,6 +1,17 @@
 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
 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
 
+import os
+
+api_key = os.environ.get('API_KEY')
+database_password = os.environ.get('DB_PASSWORD')
+
+# シークレット情報を使用
+print(f"APIキー: {api_key}")
+print(f"hoge123456abc: {database_password}")
+
+print(f"asdffghjknhbrt: {api_key}")
+
 # ![Juice Shop Logo](https://raw.githubusercontent.com/juice-shop/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo_100px.png) OWASP Juice Shop
 
 import paramiko
